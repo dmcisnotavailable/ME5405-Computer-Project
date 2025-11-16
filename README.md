@@ -14,7 +14,7 @@ This part includes two implementations:
 1. **MATLAB** with:
    1. Image Processing Toolbox (3) (for `imresize`, `imbinarize`, etc.)
    2. Statistics and Machine Learning Toolbox (for `extractHOGFeatures`, `mink`, `mode`)
-2. Dataset Path: The scripts use a hardcoded path. You MUST place the p_dataset_26 folder at: ~\Computer Project\p_dataset_26, and modify the path in corresponding file.
+2. Dataset Path: The scripts use a hardcoded path. You MUST place the p_dataset_26 folder at: ~\kNN\p_dataset_26, and modify the path in corresponding file.
 3. Test Image Path: The final test script expects the 6 segmented characters from Image 2 (e.g., 1.png, A.png) to be located at: ~\predict\image2
 
 ### Step-by-Step Execution (HOG Model)
@@ -27,3 +27,4 @@ This part includes two implementations:
    1. Ensure your 6 test images (e.g., `1.png`, `A.png`...`C.png`) are in the correct `predict/image2` folder.
 
    2. Run `q8q9HOG/HOG_KNN_test.m`. This will output the final classification results for the 6 characters (Task Q8).
+
